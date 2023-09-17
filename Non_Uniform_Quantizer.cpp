@@ -75,7 +75,7 @@ int main()
             for (int iter = 0; iter < 7; iter++)   // Just 7 iteration
             {
                 s = min;
-                // Update reconstruction level : r = ¥Òs*p(s)/¥Òp(s)
+                // Update reconstruction level : r = Â¥Ã’s*p(s)/Â¥Ã’p(s)
                 for (i = 1; i <= 1 << len; i++)
                 {
                     for (sub_count = temp_r = 0; s <= d[i] && s <= max; s++)
