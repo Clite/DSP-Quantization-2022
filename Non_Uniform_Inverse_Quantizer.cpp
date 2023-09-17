@@ -10,7 +10,7 @@ const int SIZE = channel * height * width;  // Original image size
 using namespace std;
 
 unsigned char input[SIZE], dequant[SIZE], quant[AREA];
-int shift, total_bit, bpp, x, new_byte, i;      // ¥È = 2^shift, # of bits of quantized image, bit per pixel
+int shift, total_bit, bpp, x, new_byte, i;      // Â¥Ãˆ = 2^shift, # of bits of quantized image, bit per pixel
 int main()
 {
     FILE* code, *codebook, *result, *origin;
